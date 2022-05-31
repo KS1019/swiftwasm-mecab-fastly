@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "mecab-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KS1019/Mecab-Swift",
+      "state" : {
+        "branch" : "KS1019/wasm-support",
+        "revision" : "a356a141b8e0023c3c25108cad5ffed4c7edb5b7"
+      }
+    },
+    {
+      "identity" : "swift-compute-runtime",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AndrewBarba/swift-compute-runtime",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b7a7114e6f3d51903e817da2fb5c2aab180b4fec"
+      }
+    }
+  ],
+  "version" : 2
+}

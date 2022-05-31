@@ -1,0 +1,12 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = [""]
+description = ""
+language = "other"
+manifest_version = 2
+name = "swiftwasm-mecab-fastly"
+service_id = "7K4jAGtzTSmACxXdwwYzT3"
+
+[scripts]
+build = "~/Library/Developer/Toolchains/swift-wasm-5.6.0-RELEASE.xctoolchain/usr/bin/swift build --triple wasm32-unknown-wasi --product swiftwasm-mecab-fastly -c release && fastly compute pack --wasm-binary=./.build/release/swiftwasm-mecab-fastly.wasm"

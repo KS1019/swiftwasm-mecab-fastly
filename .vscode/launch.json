@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug swiftwasm-mecab-fastly",
+            "program": "${workspaceFolder:swiftwasm-mecab-fastly}/.build/debug/swiftwasm-mecab-fastly",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftwasm-mecab-fastly}",
+            "preLaunchTask": "swift: Build Debug swiftwasm-mecab-fastly"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release swiftwasm-mecab-fastly",
+            "program": "${workspaceFolder:swiftwasm-mecab-fastly}/.build/release/swiftwasm-mecab-fastly",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftwasm-mecab-fastly}",
+            "preLaunchTask": "swift: Build Release swiftwasm-mecab-fastly"
+        }
+    ]
+}
